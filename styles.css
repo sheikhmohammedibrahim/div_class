@@ -62,6 +62,12 @@ div p {
   background-position: center;
 }
 
+.think {
+  
+  background-image: url(rain.gif);
+ 
+}
+
 .one {
   background: rgba(248, 245, 245, 0.1);
   color: green;
