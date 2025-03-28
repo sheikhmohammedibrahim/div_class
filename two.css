@@ -1,0 +1,204 @@
+body {
+  background: url(nature.gif);
+  background-attachment: fixed;
+}
+
+#parent {
+  box-sizing: border-box;
+}
+
+.tn {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  border-style: groove;
+  border-width: 4px;
+  border-color: lime;
+  border-radius: 20px;
+
+  margin-bottom: 1px;
+  margin-top: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+
+  text-align: center;
+  width: 32%;
+  float: left;
+  box-sizing: border-box;
+  background: rgba(248, 245, 245, 0.1);
+  background-image: url(wtrose.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.two {   
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+  
+    border-style: groove;
+    border-width: 4px;
+    border-color: lime;
+    border-radius: 20px;
+  
+    margin-bottom: 1px;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+  
+    text-align: center;
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+    background: rgba(248, 245, 245, 0.1);
+    background-image: url(LunaPic.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+  }
+
+  .three {  
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+  
+    border-style: groove;
+    border-width: 4px;
+    border-color: lime;
+    border-radius: 20px;
+  
+    margin-bottom: 1px;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+  
+    text-align: center;
+    width: 32%;
+    float: left;
+    background: rgba(248, 245, 245, 0.1);
+    background-image: url(rain.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+  }
+  
+#learning {
+  box-sizing: border-box;
+}
+
+.child {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  border-style: groove;
+  border-width: 4px;
+  border-color: lime;
+  border-radius: 20px;
+
+  margin-bottom: 1px;
+  margin-top: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+
+  text-align: center;
+  width: 32%;
+  float: left;
+  box-sizing: border-box;
+  background: lightgrey;
+}
+
+
+
+.one {
+  background: rgba(248, 245, 245, 0.1);
+  color: green;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bold;
+  border-style: none;
+  border-width: 2px;
+  border-color: lime;
+  border-radius: 50px;
+  padding-left: 25px;
+}
+
+.four {
+  background: rgba(248, 245, 245, 0.1);
+  color: rgb(8, 4, 245);
+  font-style: normal;
+  font-size: 40px;
+  font-weight: bold;
+  border-style: none;
+  border-width: 2px;
+  border-color: lime;
+  border-radius: 50px;
+  padding-left: 25px;
+}
+
+.five {
+  background: rgba(248, 245, 245, 0.1);
+  color: red;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bolder;
+  border-style: none;
+  border-width: 2px;
+  border-color: #0bbaef;
+  border-radius: 50px;
+  padding-left: 25px;
+}
+
+.btn {
+  background: rgba(248, 245, 245, 0.1);
+  color: red;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: bold;
+  border-style: none;
+  border-width: 2px;
+  border-color: lime;
+  border-radius: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: inline-block;
+}
+
+a.btn:hover {
+  background: #7602faea;
+  color: aqua;
+}
+
+p {
+  color: brown;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Times New Roman";
+  text-align: justify;
+  vertical-align: baseline;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+i {
+    color: rgb(251, 249, 249);
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 100px;
+    float: left;
+  }
