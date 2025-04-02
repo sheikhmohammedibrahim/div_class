@@ -1,0 +1,40 @@
+a[target] {
+  text-decoration: none;
+  color: red;
+}
+
+a[target="self"] {
+  color: plum;
+}
+
+a[title~="Pro"] {
+  color: aqua;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+a[title~="Bd"] {
+  color: purple;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+div[class|="child"] {
+  width: 300px;
+  height: 200px;
+  background: rgba(6, 121, 236, 0.767);
+}
+div[class^="child"] {
+  width: 300px;
+  height: 200px;
+  background: rgba(236, 232, 6, 0.856);
+  margin-bottom: 5px;
+}
+
+div[class$="ial"] {
+  background: magenta;
+}
+
+div[class*="erv"] {
+  background: rgb(255, 0, 0);
+}
