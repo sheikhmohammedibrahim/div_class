@@ -1,5 +1,5 @@
 body {
-  background: url(nature.gif);
+  background: url(img/LunaPic.gif);
   background-attachment: fixed;
 }
 
@@ -28,7 +28,7 @@ body {
   float: left;
   box-sizing: border-box;
   background: rgba(248, 245, 245, 0.1);
-  background-image: url(wtrose.gif);
+  background-image: url(img/wtrose.gif);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -54,10 +54,10 @@ body {
     float: left;
     box-sizing: border-box;
     background: rgba(248, 245, 245, 0.1);
-    background-image: url(LunaPic.gif);
+    background-image: url(img/wtrose.gif);
     background-repeat: no-repeat;
     background-position: center;
-    box-sizing: border-box;
+   
   }
 
   .three {  
@@ -80,7 +80,7 @@ body {
     width: 32%;
     float: left;
     background: rgba(248, 245, 245, 0.1);
-    background-image: url(rain.gif);
+    background-image: url(img/wtrose.gif);
     background-repeat: no-repeat;
     background-position: center;
     box-sizing: border-box;

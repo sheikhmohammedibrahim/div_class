@@ -1,0 +1,40 @@
+.parant {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.child {
+  background: rgb(236, 43, 9);
+  width: 50px;
+  padding-top: 14px;
+  height: 38px;
+  margin-bottom: 18px;
+  text-align: center;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+}
+
+.child p {
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+}
+
+/* NTH CHILD SELECTOR */
+
+.child:first-child {
+  background: mediumslateblue;
+}
+
+.child:last-child {
+  background: purple;
+}
+
+.child:nth-child(3) {
+  background: blue;
+}
+
+.child:nth-last-child(2) {
+  background: green;
+}

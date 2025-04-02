@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+
+
+div{
+    background: lightseagreen;
+    width: 400px;
+    height: 400px;
+    position: static;
+    margin-left: 0;
+}
