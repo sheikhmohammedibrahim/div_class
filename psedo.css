@@ -1,0 +1,36 @@
+.parant {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.child {
+  background: rgb(236, 43, 9);
+  width: 50px;
+  padding-top: 14px;
+  height: 38px;
+  margin-bottom: 18px;
+  text-align: center;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+}
+
+.child p {
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+}
+
+/* ODD AND EVEN CHILD */
+
+li:first-child{
+color: red;
+}
+
+li:last-child{
+color:blue;
+}
+
+li:nth-child(4){
+  color: aqua;
+}

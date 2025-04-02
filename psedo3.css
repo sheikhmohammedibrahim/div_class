@@ -1,0 +1,62 @@
+body {
+  background: aquamarine;
+}
+
+.parant {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.child {
+  background: rgb(236, 43, 9);
+  width: 50px;
+  padding-top: 14px;
+  height: 38px;
+  margin-bottom: 18px;
+  text-align: center;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+}
+
+.child p {
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+}
+
+/* ODD AND EVEN CHILD */
+
+/* 
+li:nth-child(2n+1){
+  color: aqua;
+} */
+
+li:nth-child(2n + 2) {
+  color: #b700ff;
+}
+
+body::after {
+  content: "Element";
+  background: burlywood;
+}
+
+body::before {
+  content: "Element";
+  background: burlywood;
+}
+
+p::first-line {
+  color: brown;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+p::first-letter {
+  font-size: 65px;
+}
+
+p::selection {
+  background: crimson;
+  color: whitesmoke;
+}
